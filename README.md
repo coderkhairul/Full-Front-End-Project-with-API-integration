@@ -1,35 +1,65 @@
 # Full-Front-End-Project-with-API-integration
 A simple Frontend project using HTML, CSS, and JavaScript with live API integration. It fetches and displays data dynamically from a public API in a clean, responsive layout. Perfect for beginners learning frontend and API handling or showcasing in a GitHub portfolio.
 
-```md
 # Frontend API Project (HTML, CSS, JS)
 
+A complete front-end project using **HTML**, **CSS**, and **JavaScript** with **Fetch API integration**. It demonstrates how to fetch data from an API and display it dynamically in a responsive layout.
 
-A simple front-end project that fetches and displays posts from a public API.
+---
 
+## 🧑‍🏫 About This Project
+This project was created following our **sir’s official instructions** for **Class Performance–2**.
 
-## 🚀 Features
-- Clean HTML + CSS layout
-- Fetches data dynamically from an API
-- Displays API results as styled cards
+**Instructions Summary:**
+- Code the entire project.
+- Complete the footer section.
+- Make multiple commits to GitHub (optional).
+- Physical checking date: **November 9, 2025**.
 
+This project is based on a playlist demonstrating a full front-end workflow, covering both **fundamental and intermediate concepts** with notes. Students are instructed to code along with the videos to strengthen their understanding of front-end development.
 
-## 🛠️ Setup Instructions
-1. Clone this repository:
-```bash
-git clone https://github.com/your-username/frontend-api-project.git
+---
+
+## 📁 Project Structure
 ```
-2. Open `index.html` in your browser.
-3. You’ll see live data loaded from `https://jsonplaceholder.typicode.com/posts`.
+frontend-api-project/
+├─ index.html
+├─ style.css
+├─ script.js
+├─ .gitignore
+├─ README.md
+└─ assets/
+   └─ logo.png (optional)
+```
 
+---
+
+## 💡 Features
+- Built using only HTML, CSS, and JavaScript
+- Fetch API used for dynamic data loading
+- Responsive card layout
+- Clean and organised folder structure
+
+---
+
+## ⚙️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/frontend-api-project.git
+   ```
+2. Open the folder and run `index.html` in your browser.
+
+---
 
 ## 🌐 Deployment
-You can deploy this project easily on:
+You can easily deploy this project on:
 - **GitHub Pages**
 - **Netlify**
 - **Vercel**
 
+---
 
-## 👤 Author
-Md. Khairul Islam
-```
+## 👨‍🎓 Author
+**Md. Khairul Islam**  
+CSE Department, Sonargaon University  
+**Project Date:** November 2025

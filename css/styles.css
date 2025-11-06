@@ -5,14 +5,13 @@
 }
 
 body{
-    background-color: #1D242D;
+    background-color: rgb(255, 248, 249);
 }
 header{
     display: flex;
     justify-content: space-between;
     width: 90%;
     margin: 50px auto;
-    color: white
 }
 
 span {
@@ -34,10 +33,9 @@ span {
 }
 
 #highlights-section{
-    border: 2px solid blue;
     width: 70%;
     margin: 0 auto;
-    color: white;
+}
 
 #highlights-section > h2{
     font-size: 50px;
@@ -45,5 +43,19 @@ span {
     ;
     text-align: center;
     margin-bottom: 25px;
-    color: white;
+    text-shadow: 2px 2px 8px #af3d3d;
 }
+
+#highlights-section > p{
+    width: 50%;
+    margin: 0 auto;
+    color: darkgray;
+    text-align: center;
+}
+
+#buy_now_btn {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+

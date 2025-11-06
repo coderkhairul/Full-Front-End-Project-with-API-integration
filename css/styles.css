@@ -56,6 +56,15 @@ span {
 #buy_now_btn {
     display: flex;
     justify-content: center;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
+#cover-image-section {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#cover-image-section img {
+
+    width: 100%;
+}

@@ -5,13 +5,19 @@
 }
 
 body{
-    background-color: pink;
+    background-color: #1D242D;
 }
 header{
     display: flex;
     justify-content: space-between;
     width: 90%;
     margin: 50px auto;
+    color: white
+}
+
+span {
+
+    color: var(--main-color);
 }
 
 .btn{
@@ -25,4 +31,19 @@ header{
 .btn:hover{
     background-color: blue;
     cursor: pointer;
+}
+
+#highlights-section{
+    border: 2px solid blue;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+
+#highlights-section > h2{
+    font-size: 50px;
+    font-weight: 800
+    ;
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
 }

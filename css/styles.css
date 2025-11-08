@@ -1,114 +1,420 @@
-*{
+* {
+    font-family: "Roboto", sans-serif;
     margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
 }
 
-body{
-    background-color: rgb(255, 248, 249);
+body {
+    background-color: rgb(247, 234, 234);
 }
-header{
+
+header {
+    width: 90%;
+    margin: 50px auto;
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    align-items: center;
+}
+
+.btn {
+    background-color: #0d6efd;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: #18407c;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+#section-1 {
+    width: 70%;
     margin: 50px auto;
 }
 
-span {
-
-    color: var(--main-color);
-}
-
-.btn{
-    background-color: rgb(10, 68, 177);
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 15px 30px;
-}
-
-.btn:hover{
-    background-color: blue;
-    cursor: pointer;
-}
-
-#highlights-section{
-    width: 70%;
-    margin: 0 auto;
-}
-
-#highlights-section > h2{
-    font-size: 50px;
-    font-weight: 800
-    ;
+#section-1>h1 {
+    font-size: 55px;
+    font-weight: 800;
+    text-shadow: 2px 2px 8px #b17575;
     text-align: center;
     margin-bottom: 25px;
-    text-shadow: 2px 2px 8px #af3d3d;
 }
 
-#highlights-section > p{
-    width: 50%;
+#section-1>p {
+    width: 60%;
     margin: 0 auto;
-    color: darkgray;
+    color: #706f6f;
+    font-size: 18px;
     text-align: center;
+    margin-bottom: 25px;
 }
 
-#buy_now_btn {
+#buy-now-btn-container {
     display: flex;
     justify-content: center;
-    margin: 15px 0;
 }
 
-#cover-image-section {
+#section-2 {
     width: 70%;
-    margin: 0 auto;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
 }
 
-#cover-image-section img {
-
+#section-2>img {
     width: 100%;
 }
 
-#search-section {
-
+#section-3 {
     width: 70%;
     margin: 50px auto;
 }
 
-#search-section > h2 {
-
+#section-3>h2 {
     text-align: center;
     margin-bottom: 20px;
 }
 
 #search-container {
-
-    width: 60%;
     margin: 0 auto;
-    display: flex;
-    border-radius: 8px;
-    border: 2px solid black;
     padding: 10px;
-    background-color: rgb(237,232,192);
-
+    width: 50%;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: beige;
 }
 
 #search-bar {
-
-    width: 60%;
+    width: 70%;
 }
 
-#search-bar > input[type = "text"] {
-
+#search-bar>input[type="text"] {
     padding: 15px;
-    border: none;
+    border: 0;
+    width: 50%;
+    background-color: beige;
     outline: none;
-    width: 60%;
-    background-color: rgb(237,232,192);
 }
 
-#search-button  {
-    display: flex;
+#search-button {
     width: 30%;
+    display: flex;
     justify-content: flex-end;
+}
+
+#card-container-section {
+    width: 80%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    /* width: 20%; */
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card-image {
+    margin-bottom: 20px;
+    background-color: white;
+    /* background-color: white; */
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-image:hover {
+    background-color: #1d335515;
+    transition: 0.8s;
+}
+
+.card-image img {
+    width: 80%;
+    height: 300px;
+}
+
+.card-image img:hover {
+    width: 80%;
+    height: 300px;
+}
+
+.card-title {
+    text-align: center;
+    color: #403f3f;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    text-align: center;
+    color: #706f6f;
+    margin-bottom: 10px;
+}
+
+.card-price {
+    text-align: center;
+    color: #403f3f;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card-button {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#showAll-btn-section {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 50px auto;
+}
+
+footer {
+    background-color: #0d6dfd15;
+    height: 300px;
+    padding: 150px;
+}
+
+#upper-footer-section {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-social-icons {
+    display: flex;
+    align-items: center;
+}
+
+#footer-social-icons img {
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+}
+
+#horizontal-line {
+    border-top: 1px solid #cfcfcf;
+}
+
+#footer-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+#footer-nav div {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+#footer-nav div a {
+    text-decoration: none;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    padding: 3px;
+    background: radial-gradient(farthest-side, #4430c9 95%, #0000) 50% 0/12px 12px no-repeat,
+        radial-gradient(farthest-side,
+            #0000 calc(100% - 5px),
+            #ffa516 calc(100% - 4px)) content-box;
+    animation: l6 2s infinite;
+}
+
+@keyframes l6 {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+/* from chatGPT */
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+#closeBtn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#closeBtn:hover,
+#closeBtn:focus {
+    color: rgb(164, 12, 12);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#show-detail-container span {
+    color: black;
+    font-weight: 600;
+}
+
+#show-detail-container p {
+    margin-bottom: 10px;
+}
+
+#modal-image-container {
+    height: 300px;
+    background-color: #1d335515;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#modal-item-name {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.modal-item-description {
+    color: #706f6f;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn {
+        background-color: #0d6efd;
+        padding: 10px 20px;
+        color: white;
+        border: none;
+        border-radius: 8px;
+    }
+
+    #section-1>h1 {
+        font-size: 30px;
+        font-weight: 800;
+        text-shadow: 2px 2px 8px #b17575;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    #section-1>p {
+        width: 100%;
+        margin: 0 auto;
+        color: #706f6f;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    #search-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #search-bar {
+        width: 100%;
+    }
+
+    #search-button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #search-bar>input[type="text"] {
+        width: 70%;
+        margin-bottom: 5px;
+    }
+
+    #card-container-section {
+        width: 80%;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .modal-content {
+        width: 80%;
+    }
+
+    footer {
+        background-color: #0d6dfd15;
+        height: 600px;
+        padding: 75px;
+    }
+
+    #upper-footer-section {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    #footer-nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 5px;
+        margin-top: 50px;
+    }
+
+    #footer-nav div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        box-shadow: rgba(44, 44, 145, 0.25) 0px 50px 100px -20px,
+            rgba(144, 32, 32, 0.3) 0px 30px 60px -30px,
+            rgba(17, 103, 189, 0.35) 0px -2px 6px 0px inset;
+        border-radius: 5px;
+        padding: 5px;
+    }
 }
